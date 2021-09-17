@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac063c1f-8656-408d-aceb-c0031193a5d2" name="Changes" comment="First commit 8" />
+    <list default="true" id="ac063c1f-8656-408d-aceb-c0031193a5d2" name="Changes" comment="Edits" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -139,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631841077985</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Edits">
+      <created>1631841487281</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1631841487281</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,10 +159,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First commit 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit 8" />
+    <MESSAGE value="Edits" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edits" />
   </component>
 </project>

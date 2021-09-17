@@ -3,6 +3,11 @@
  *  Copyright 2021 Srignan Paruchuru
  */
 
+/*
+User prompted inputs for length and width
+Use math ceil function to make sure output rounds up
+calculate total square area
+ */
 package Exercise09;
 
 import java.util.Scanner;
@@ -10,15 +15,14 @@ import java.util.Scanner;
 public class Solution09 {
 
         public static void main(String[] args) {
-            Scanner sc = new Scanner(System.in); //scanner object
-            double sqFeetPerGallon = 350;
+            Scanner sc = new Scanner(System.in);
+            final double gallonArea = 350.0;
             System.out.print("Enter length: ");
-            double length = sc.nextDouble(); //take length from user
+            int length = sc.nextInt();
             System.out.print("Enter width: ");
-            double width = sc.nextDouble(); //take width from user
-            double totalSq = length*width; //calculate total square
-            int gallon = (int)Math.ceil(totalSq/sqFeetPerGallon); //calculate number of gallon
-            System.out.println("You will need to purchase "+gallon+" of paint to cover "+totalSq+" square feet");
+            int width = sc.nextInt();
+            int totalArea = length * width;
+            System.out.println("You will need to purchase "+((int) Math.ceil(totalArea / gallonArea))+" gallons of paint to cover "+totalArea+" square feet");
         }
 }
 
