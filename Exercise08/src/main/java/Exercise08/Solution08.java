@@ -1,8 +1,12 @@
 /*
- *  UCF COP3330 Fall 2021 Assignment 7 Solution
+ *  UCF COP3330 Fall 2021 Assignment 8 Solution
  *  Copyright 2021 Srignan Paruchuru
  */
 
+/*
+Simple addition and division
+Print statements properly and define people, pizzas, slices, total, portion, and leftovers
+ */
 package Exercise08;
 
 import java.util.Scanner;
