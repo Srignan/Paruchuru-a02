@@ -1,8 +1,9 @@
-package Exercise10;
 /*
  *  UCF COP3330 Fall 2021 Assignment 9 Solution
  *  Copyright 2021 Srignan Paruchuru
  */
+
+package Exercise10;
 
 /*
 User prompted inputs for three items quantity and price
