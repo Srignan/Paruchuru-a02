@@ -30,7 +30,7 @@ public class Solution12 {
 
             int Years=(int)Time;
 
-            System.out.printf("After %d years at %.2f%% , the investment will be worth $%.2f.\n",
+            System.out.printf("After %d years at %.2f%%, the investment will be worth $%.2f.\n",
                     Years, Rate, Investment);
         }
 }

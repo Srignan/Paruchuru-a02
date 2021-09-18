@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="facb8258-8568-48d8-adb3-bea07f790470" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exercise12/Solution12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exercise12/Solution12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercise13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise13/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="facb8258-8568-48d8-adb3-bea07f790470" name="Changes" comment="12 complete" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -142,6 +138,14 @@
       <option name="presentableId" value="Default" />
       <updated>1631932670116</updated>
     </task>
+    <task id="LOCAL-00001" summary="12 complete">
+      <created>1631938343416</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1631938343416</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,5 +161,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="12 complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="12 complete" />
   </component>
 </project>
