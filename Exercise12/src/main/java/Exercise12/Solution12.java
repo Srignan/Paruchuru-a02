@@ -6,13 +6,12 @@
 package Exercise12;
 
 /*
-User prompted inputs for three items quantity and price
-Use string format again to make the output stop at 2 decimal places
-Calculate outputs using multiplication and addition
+Use Scanner for user inputs
+Calculate Investment with principal times 1+rate*time/100
+Use math ceil to round up
  */
 
 import java.util.Scanner;
-import java.math.BigDecimal;
 
 public class Solution12 {
 
@@ -27,13 +26,11 @@ public class Solution12 {
             System.out.print("Enter the number of years: ");
             double Time = in.nextDouble();
 
-            double Investment = Principal*(1 +(Rate*Time)/100);
+            double Investment = Math.ceil((Principal*(1 +(Rate*Time)/100))*100.00)/100.00;
 
             int Years=(int)Time;
 
-            BigDecimal InvestmentDecimal = new BigDecimal(Investment);
-
             System.out.printf("After %d years at %.2f%% , the investment will be worth $%.2f.\n",
-                    Years, Rate, InvestmentDecimal);
+                    Years, Rate, Investment);
         }
 }
