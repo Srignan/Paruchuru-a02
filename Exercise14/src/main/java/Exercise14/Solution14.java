@@ -28,7 +28,7 @@ public class Solution14 {
         if(state.equalsIgnoreCase("WI")) {
 
             double Tax = Amount * 0.055;
-            double Final = Math.ceil((Amount + Tax)*100.00)/100.0;
+            double Final = Math.ceil((Amount + Tax) * 100.00) / 100.00;
 
             System.out.printf("\nThe tax is $%.2f\nThe total is $%.2f", Tax, Final);
         }
