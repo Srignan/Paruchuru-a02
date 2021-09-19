@@ -6,8 +6,9 @@
 package Exercise17;
 
 /*
-Use math ceil again to round up to the nearest cent
-Use if statement involving WI to make it add tax if WI is inputted for state
+Use scanner for user input
+State all variables in formula, A, gender, W, H, BAC, r
+Use if else statement for output
  */
 
 
