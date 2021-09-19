@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81fb5683-b7ac-4065-8540-7eda5ee54f66" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Exercise14/src/main/java/Exercise14/Solution14.java" afterDir="false" />
+    <list default="true" id="81fb5683-b7ac-4065-8540-7eda5ee54f66" name="Changes" comment="13 Complete">
+      <change beforePath="$PROJECT_DIR$/../Exercise11/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise11/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise11/src/main/java/Exercise11/Solution11.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise11/src/main/java/Exercise11/Solution11.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Exercise12/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise12/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exercise13/Solution13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exercise13/Solution13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise14/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise14/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise14/src/main/java/Exercise14/Solution14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise14/src/main/java/Exercise14/Solution14.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +81,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Gradle.Exercise13 [run]">
     <configuration name="Exercise13 [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -138,6 +142,14 @@
       <option name="presentableId" value="Default" />
       <updated>1631932911955</updated>
     </task>
+    <task id="LOCAL-00001" summary="13 Complete">
+      <created>1631941317293</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1631941317293</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,8 +162,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="13 Complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="13 Complete" />
   </component>
 </project>

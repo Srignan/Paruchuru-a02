@@ -11,31 +11,57 @@ Use string format again to make the output stop at 2 decimal places
 Calculate outputs using multiplication and addition
  */
 import java.util.Scanner;
-
-   class CurrencyExchange
-    {
-        double currency;
-        double rate;
-        public void read()
-        {
-            Scanner sc = new Scanner(System.in);
-            this.currency = sc.nextDouble();
-            this.rate = sc.nextDouble();
-        }
-        public void print()
-        {
-            double currencyConverted = currency*rate;
-            System.out.printf("How many euros are you exchanging? \r\n" +
-                    "What is the exchange rate? \r\n"
-                    +currency+ " euros at an exchange rate of "+rate+" is \r\n " +
-                    "%.2f U.S dollars.",currencyConverted);
-        }
-    }
 public class Solution11 {
-        public static void main(String[] args)
-        {
-            CurrencyExchange ca = new CurrencyExchange();
-            ca.read();
-            ca.print();
-        }
+
+
+    public static void main(String[] args) {
+
+        //create an object of class CurrencyExchange
+
+        CurrencyExchange ca = new CurrencyExchange();
+
+        // call method ReadandPrint
+
+        ca.ReadandPrint();
+    }
+
+}
+
+//////////////////////////////////////////////////////////
+
+//class named CurrencyExchange
+
+class CurrencyExchange
+{
+    // instance variables
+
+    double currency;
+    double rate;
+
+// method ReadandPrint
+
+    public void ReadandPrint()
+    {
+        // create object ofScanner class
+
+        Scanner sc = new Scanner(System.in);
+
+        // prompt input and print in same statement
+
+        System.out.println();
+
+        this.currency = Double.parseDouble(sc.next());
+
+        System.out.print(" euros at an exchange rate of ");
+
+        this.rate = Double.parseDouble(sc.next());
+
+        System.out.print(" is ");
+
+        System.out.print(currency * rate);
+
+        System.out.println(" US dollars.");
+
+        sc.close();
+    }
 }
