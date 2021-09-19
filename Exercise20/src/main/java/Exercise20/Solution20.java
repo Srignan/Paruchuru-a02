@@ -26,7 +26,7 @@ public class Solution20{
     String state = Input.next();
 
             Input.nextLine(); //I genuinely don't understand how this fixes the issue.
-            //I was having problems because it kept skipping the "what county" part and this line fixed the issue.
+            //I was having problems because it kept skipping the "what county" part.
 
     if(state.equals("Wisconsin")){
         System.out.print("What country do you live in? ");
