@@ -6,9 +6,18 @@
 package Exercise16;
 
 /*
-Use math ceil again to round up to the nearest cent
-Use if statement involving WI to make it add tax if WI is inputted for state
+Use ternary operator for print statements; if age >=16, true = old enough to drive, false = not old enough
+Scan user input for age
  */
 
+import java.util.Scanner;
+
 public class Solution16 {
-}
+        public static void main(String[] args) {
+        int age;
+        Scanner Input = new Scanner(System.in);
+        System.out.print("What is your age? ");
+        age = Input.nextInt();
+        System.out.println(age >= 16 ? "You are old enough to legally drive.":"You are not old enough to legally drive.");
+    }
+    }
