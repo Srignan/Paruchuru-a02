@@ -6,62 +6,32 @@
 package Exercise11;
 
 /*
-User prompted inputs for three items quantity and price
-Use string format again to make the output stop at 2 decimal places
-Calculate outputs using multiplication and addition
+User prompted scan for how many euros and exchange rate
+Calculate output using Multiplication
+Use math ceil to round up
  */
 import java.util.Scanner;
+
 public class Solution11 {
 
+    public static void main(String[] args){
 
-    public static void main(String[] args) {
+        int Euros;
+        double Rate;
 
-        //create an object of class CurrencyExchange
+        Scanner Input = new Scanner(System.in);
 
-        CurrencyExchange ca = new CurrencyExchange();
+        System.out.print("How many euros are you exchanging? ");
+        Euros = Input.nextInt();
 
-        // call method ReadandPrint
+        System.out.print("What is the exchange rate? ");
+        Rate = Input.nextDouble();
 
-        ca.ReadandPrint();
-    }
+        System.out.println(Euros+" euros at an exchange rate of "+Rate+" is");
 
-}
+        double USD = Math.ceil((Euros * Rate)*100.00)/100.00;
 
-//////////////////////////////////////////////////////////
-
-//class named CurrencyExchange
-
-class CurrencyExchange
-{
-    // instance variables
-
-    double currency;
-    double rate;
-
-// method ReadandPrint
-
-    public void ReadandPrint()
-    {
-        // create object ofScanner class
-
-        Scanner sc = new Scanner(System.in);
-
-        // prompt input and print in same statement
-
-        System.out.println();
-
-        this.currency = Double.parseDouble(sc.next());
-
-        System.out.print(" euros at an exchange rate of ");
-
-        this.rate = Double.parseDouble(sc.next());
-
-        System.out.print(" is ");
-
-        System.out.print(currency * rate);
-
-        System.out.println(" US dollars.");
-
-        sc.close();
+        System.out.printf("%.2f U.S dollars.",USD);
     }
 }
+
